@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f8f8f3"><meta name="description" content="온결과 함께할 서비스, 콘텐츠, 캠페인 및 사업 제휴를 제안해 주세요.">
+  <title>제휴 제안 — 온결</title><link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script><script src="share.js" defer></script><script src="footer.js" defer></script><script src="header.js" defer></script><script src="partnership.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a><div class="announcement">첫 구매 고객 3,000원 할인 · 3만원 이상 무료배송</div>
+  <header class="site-header">
+    <div class="utility-row"><button class="utility-toggle" type="button" aria-expanded="false" aria-controls="utility-nav" aria-label="사이트 바로가기 메뉴 열기">☰</button><nav class="utility-nav" id="utility-nav" aria-label="사이트 바로가기"><a href="signup.html">회원가입</a><a href="login.html">로그인</a><a href="cart.html" class="cart-link">장바구니 <b id="cart-count">0</b></a><a href="#order">주문배송</a><a href="help.html">고객센터</a><a href="store.html">온결 매장</a><a href="#global">Global</a></nav></div>
+    <div class="header-inner"><button class="icon-button menu-toggle" aria-label="메뉴 열기" aria-expanded="false" aria-controls="category-nav">☰</button><a class="logo" href="index.html" aria-label="온결 홈">온결<span>ONGYEOL</span></a><form class="search-form" action="search.html" role="search"><label class="sr-only" for="site-search">상품 검색</label><input id="site-search" name="q" placeholder="검색"><button aria-label="검색">⌕</button></form><nav class="header-shortcuts" aria-label="쇼핑 바로가기"><a href="store.html">온결 매장 찾기 <span aria-hidden="true">⌄</span></a><a href="recent.html">최근 본 상품 <span aria-hidden="true">⌄</span></a></nav></div>
+    <nav class="category-nav" id="category-nav" aria-label="상품 카테고리"><a href="search.html?category=all">전체</a><a href="search.html?category=cleanser">클렌저</a><a href="search.html?category=toner">토너·패드</a><a href="search.html?category=serum">세럼·에센스</a><a href="search.html?category=cream">크림</a><a href="search.html?category=suncare">선케어</a></nav>
+  </header>
+  <main id="main" class="partnership-page container">
+    <nav class="breadcrumbs" aria-label="현재 위치"><a href="index.html">홈</a><span>/</span><span>제휴 제안</span></nav>
+    <section class="partnership-heading"><p class="eyebrow">ONGYEOL PARTNERSHIP</p><h1>온결과 함께 만드는<br><em>더 나은 스킨케어 경험.</em></h1><p>브랜드와 고객을 잇는 새로운 아이디어와 협업을 기다립니다.<br>아래 내용을 작성해 제휴를 제안해 주세요.</p></section>
+    <aside class="partnership-notice"><div><p class="eyebrow">BEFORE YOU SUBMIT</p><h2>작성 전 확인해 주세요</h2></div><ul><li>제출하신 내용은 온결과의 제휴 가능성을 검토하는 목적으로만 확인합니다.</li><li>제안서에는 제안자가 공개할 권리를 가진 정보만 포함해 주세요.</li><li>검토를 위해 추가 자료나 미팅을 요청드릴 수 있으며, 모든 제안에 개별 회신이 보장되지는 않습니다.</li><li>연락 가능한 이메일과 전화번호를 정확히 입력해 주세요.</li><li>이 페이지는 시안으로, 제출 정보와 첨부 파일은 서버로 전송되지 않습니다.</li></ul><label class="partnership-check"><input type="checkbox" id="partnership-notice-check"><span>위 유의사항을 확인했습니다. <b>(필수)</b></span></label></aside>
+    <form class="partnership-form" id="partnership-form">
+      <section class="partnership-form-section"><div class="partnership-section-title"><span>01</span><div><h2>제휴 제안 내용</h2><p>함께하고 싶은 분야와 제안의 핵심 내용을 적어 주세요.</p></div></div>
+        <div class="partnership-fields"><fieldset><legend>제휴 희망 분야 <b>(필수)</b></legend><div class="partnership-options"><label><input type="checkbox" name="fields" value="콘텐츠·에디토리얼"><span>콘텐츠·에디토리얼</span></label><label><input type="checkbox" name="fields" value="서비스·플랫폼"><span>서비스·플랫폼</span></label><label><input type="checkbox" name="fields" value="브랜드 캠페인"><span>브랜드 캠페인</span></label><label><input type="checkbox" name="fields" value="글로벌 협업"><span>글로벌 협업</span></label><label><input type="checkbox" name="fields" value="공동 프로모션"><span>공동 프로모션</span></label><label><input type="checkbox" name="fields" value="기타"><span>기타 제휴</span></label></div></fieldset>
+          <label class="partnership-field">제목 <b>(필수)</b><input name="title" type="text" required maxlength="100" placeholder="제안 제목을 입력해 주세요"></label>
+          <label class="partnership-field">제안 내용 <b>(필수)</b><textarea name="content" id="partnership-content" rows="8" maxlength="1000" required placeholder="제휴 배경, 함께 만들고 싶은 가치, 진행 방식과 기대 효과를 작성해 주세요."></textarea><small class="partnership-counter"><span id="partnership-count">0</span> / 1,000자</small><small class="partnership-hint">공개 가능한 정보만 작성해 주세요. 특허 출원 전 기술 등 민감한 핵심 정보는 기재하지 않는 것을 권장합니다.</small></label>
+          <label class="partnership-field">제안서 첨부 <span class="partnership-optional">선택</span><input type="file" name="proposalFile" accept=".pdf,.doc,.docx,.ppt,.pptx,.zip"><small class="partnership-hint">PDF, DOC, DOCX, PPT, PPTX, ZIP · 파일당 최대 50MB</small><span class="partnership-file-name" data-file-name="proposalFile">선택된 파일이 없습니다.</span></label>
+        </div>
+      </section>
+      <section class="partnership-form-section"><div class="partnership-section-title"><span>02</span><div><h2>제안 업체 정보</h2><p>제휴 검토와 연락에 필요한 정보를 입력해 주세요.</p></div></div>
+        <div class="partnership-fields"><fieldset><legend>업체 구분 <b>(필수)</b></legend><div class="partnership-options partnership-options-inline"><label><input type="radio" name="organizationType" value="기업" required><span>기업</span></label><label><input type="radio" name="organizationType" value="공공기관"><span>공공기관</span></label><label><input type="radio" name="organizationType" value="개인·단체"><span>개인·단체</span></label></div></fieldset>
+          <div class="partnership-field-row"><label class="partnership-field">회사·기관명 <b>(필수)</b><input name="organization" required maxlength="120" placeholder="회사 또는 기관명"></label><label class="partnership-field">담당자명 <b>(필수)</b><input name="contact" required maxlength="40" autocomplete="name" placeholder="제안 담당자 성함"></label></div>
+          <div class="partnership-field-row"><label class="partnership-field">연락처 <b>(필수)</b><input name="phone" type="tel" required pattern="[0-9+() -]{8,20}" autocomplete="tel" placeholder="010-0000-0000"></label><label class="partnership-field">이메일 <b>(필수)</b><input name="email" type="email" required autocomplete="email" placeholder="name@example.com"></label></div>
+          <label class="partnership-field">홈페이지 주소 <span class="partnership-optional">선택</span><input name="website" type="url" placeholder="https://"></label>
+          <label class="partnership-field">회사·기관 소개서 <span class="partnership-optional">선택</span><input type="file" name="organizationFile" accept=".pdf,.doc,.docx,.ppt,.pptx,.zip"><small class="partnership-hint">PDF, DOC, DOCX, PPT, PPTX, ZIP · 파일당 최대 50MB</small><span class="partnership-file-name" data-file-name="organizationFile">선택된 파일이 없습니다.</span></label>
+        </div>
+      </section>
+      <section class="partnership-form-section partnership-privacy-section"><div class="partnership-section-title"><span>03</span><div><h2>개인정보 수집 및 이용</h2><p>제휴 제안 검토를 위해 필요한 정보를 확인합니다.</p></div></div><div class="partnership-privacy-copy"><p>온결은 제휴 제안에 대한 담당자 확인, 의사소통 및 제안 내용 검토를 위해 아래 개인정보를 수집·이용합니다.</p><dl><div><dt>수집 항목</dt><dd>회사·기관명, 담당자명, 연락처, 이메일 주소</dd></div><div><dt>이용 목적</dt><dd>제안자 확인, 제휴 내용 검토 및 관련 연락</dd></div><div><dt>보유 기간</dt><dd>제휴 검토 완료 후 최대 3개월 이내 파기</dd></div></dl><p>동의를 거부할 수 있으나, 필수 정보 수집에 동의하지 않으면 제안 접수가 제한됩니다.</p><label class="partnership-check"><input type="checkbox" name="privacy" required><span>개인정보 수집 및 이용에 동의합니다. <b>(필수)</b></span></label></div></section>
+      <div class="partnership-submit-area"><p>접수 정보는 이 브라우저에만 임시 저장되며, 담당자에게 실제 전송되지 않습니다.</p><button class="button button-dark" type="submit">제휴 제안 제출 <span>↗</span></button><div class="partnership-result" id="partnership-result" aria-live="polite"></div></div>
+    </form>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="logo" href="index.html">온결<span>ONGYEOL</span></a></div></footer>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f8f8f3">
+  <meta name="description" content="온결의 다음을 함께 만들어갈 동료를 찾습니다."><title>채용 안내 — 온결</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script><script src="share.js" defer></script><script src="footer.js" defer></script><script src="header.js" defer></script><script src="careers.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a><div class="announcement">첫 구매 고객 3,000원 할인 · 3만원 이상 무료배송</div>
+  <header class="site-header">
+    <div class="utility-row"><button class="utility-toggle" type="button" aria-expanded="false" aria-controls="utility-nav" aria-label="사이트 바로가기 메뉴 열기">☰</button><nav class="utility-nav" id="utility-nav" aria-label="사이트 바로가기"><a href="signup.html">회원가입</a><a href="login.html">로그인</a><a href="cart.html" class="cart-link">장바구니 <b id="cart-count">0</b></a><a href="#order">주문배송</a><a href="help.html">고객센터</a><a href="store.html">온결 매장</a><a href="#global">Global</a></nav></div>
+    <div class="header-inner"><button class="icon-button menu-toggle" aria-label="메뉴 열기" aria-expanded="false" aria-controls="category-nav">☰</button><a class="logo" href="index.html" aria-label="온결 홈">온결<span>ONGYEOL</span></a><form class="search-form" action="search.html" role="search"><label class="sr-only" for="site-search">상품 검색</label><input id="site-search" name="q" placeholder="검색"><button aria-label="검색">⌕</button></form><nav class="header-shortcuts" aria-label="쇼핑 바로가기"><a href="store.html">온결 매장 찾기 <span aria-hidden="true">⌄</span></a><a href="recent.html">최근 본 상품 <span aria-hidden="true">⌄</span></a></nav></div>
+    <nav class="category-nav" id="category-nav" aria-label="상품 카테고리"><a href="search.html?category=all">전체</a><a href="search.html?category=cleanser">클렌저</a><a href="search.html?category=toner">토너·패드</a><a href="search.html?category=serum">세럼·에센스</a><a href="search.html?category=cream">크림</a><a href="search.html?category=suncare">선케어</a></nav>
+  </header>
+  <main id="main" class="careers-page container">
+    <nav class="breadcrumbs" aria-label="현재 위치"><a href="index.html">홈</a><span>/</span><span>채용 안내</span></nav>
+    <section class="careers-hero"><div><p class="eyebrow">CAREERS AT ONGYEOL</p><h1>좋은 변화를 함께<br><em>만들 동료를 찾습니다.</em></h1><p>피부가 편안한 매일을 만드는 일.<br>온결의 다음 장면을 함께 그려갈 사람을 기다립니다.</p><a href="#open-positions" class="career-scroll-link">현재 진행 중인 공고 <span>↓</span></a></div><div class="careers-hero-art" aria-hidden="true"><span>GROW<br>TOGETHER</span><i></i><b>ONGYEOL / PEOPLE</b></div></section>
+    <section class="career-process" aria-labelledby="career-process-title"><div class="career-process-heading"><div><p class="eyebrow">HIRING PROCESS</p><h2 id="career-process-title">지원부터 합류까지</h2></div><p>포트폴리오 제출이나 실무 과제 등 직무별 추가 절차는 각 공고 상세에서 안내합니다.</p></div>
+      <ol class="career-stepper"><li><span>01</span><strong>지원서 접수</strong><small>온라인 지원</small></li><li><span>02</span><strong>서류 전형</strong><small>경험과 역량 검토</small></li><li><span>03</span><strong>직무 인터뷰</strong><small>업무 경험과 역할</small></li><li><span>04</span><strong>최종 인터뷰</strong><small>협업 방식 확인</small></li><li class="career-step-final"><span>05</span><strong>처우 협의 및 입사</strong><small>최종 합류</small></li></ol>
+    </section>
+    <section class="career-openings" id="open-positions" aria-labelledby="career-list-title"><div class="career-list-heading"><div><p class="eyebrow">OPEN POSITIONS</p><h2 id="career-list-title">현재 진행 중인 공고</h2></div><p>관심 있는 직무를 찾아 공고의 주요 내용과 전형 안내를 확인해 보세요.</p></div>
+      <div class="career-controls"><label class="career-search"><span class="sr-only">채용 공고 검색</span><input id="career-search" type="search" placeholder="직무나 키워드를 검색하세요"><button id="career-search-button" type="button" aria-label="검색">⌕</button></label><div class="career-selects"><label>직무 <select id="career-category"><option value="all">전체 직무</option><option value="commerce">커머스·MD</option><option value="brand">브랜드·마케팅</option><option value="design">디자인·콘텐츠</option><option value="customer">고객 경험</option><option value="operations">운영·물류</option></select></label><label>고용형태 <select id="career-type"><option value="all">전체</option><option value="regular">정규직</option><option value="contract">계약직</option></select></label><label>정렬 <select id="career-sort"><option value="latest">최신순</option><option value="closing">마감 임박순</option></select></label></div></div>
+      <p class="career-result-count" id="career-result-count" aria-live="polite"></p><div class="career-job-list" id="career-job-list"></div><nav class="career-pagination" id="career-pagination" aria-label="채용 공고 페이지"></nav>
+    </section>
+  </main>
+  <dialog class="career-dialog" id="career-dialog" aria-labelledby="career-dialog-title"><button class="career-dialog-close" type="button" aria-label="공고 닫기">×</button><div class="career-dialog-content" id="career-dialog-content"></div></dialog>
+  <footer class="site-footer"><div class="container footer-inner"><a class="logo" href="index.html">온결<span>ONGYEOL</span></a></div></footer>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f8f8f3">
+  <meta name="description" content="온결 에디토리얼 기사"><title>이야기 — 온결</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script><script src="share.js" defer></script><script src="footer.js" defer></script><script src="header.js" defer></script><script src="newsroom.js" defer></script><script src="news-article.js" defer></script>
+</head>
+<body class="editorial-surface">
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a><div class="announcement">첫 구매 고객 3,000원 할인 · 3만원 이상 무료배송</div>
+  <header class="site-header">
+    <div class="utility-row"><button class="utility-toggle" type="button" aria-expanded="false" aria-controls="utility-nav" aria-label="사이트 바로가기 메뉴 열기">☰</button><nav class="utility-nav" id="utility-nav" aria-label="사이트 바로가기"><a href="signup.html">회원가입</a><a href="login.html">로그인</a><a href="cart.html" class="cart-link">장바구니 <b id="cart-count">0</b></a><a href="#order">주문배송</a><a href="help.html">고객센터</a><a href="store.html">온결 매장</a><a href="#global">Global</a></nav></div>
+    <div class="header-inner"><button class="icon-button menu-toggle" aria-label="메뉴 열기" aria-expanded="false" aria-controls="category-nav">☰</button><a class="logo" href="index.html" aria-label="온결 홈">온결<span>ONGYEOL</span></a><form class="search-form" action="search.html" role="search"><label class="sr-only" for="site-search">상품 검색</label><input id="site-search" name="q" placeholder="검색"><button aria-label="검색">⌕</button></form><nav class="header-shortcuts" aria-label="쇼핑 바로가기"><a href="store.html">온결 매장 찾기 <span aria-hidden="true">⌄</span></a><a href="recent.html">최근 본 상품 <span aria-hidden="true">⌄</span></a></nav></div>
+    <nav class="category-nav" id="category-nav" aria-label="상품 카테고리"><a href="search.html?category=all">전체</a><a href="search.html?category=cleanser">클렌저</a><a href="search.html?category=toner">토너·패드</a><a href="search.html?category=serum">세럼·에센스</a><a href="search.html?category=cream">크림</a><a href="search.html?category=suncare">선케어</a></nav>
+  </header>
+  <main id="main" class="news-article-page container">
+    <nav class="breadcrumbs" aria-label="현재 위치"><a href="index.html">홈</a><span>/</span><a href="newsroom.html">뉴스룸</a><span>/</span><span id="article-breadcrumb">이야기</span></nav>
+    <article class="news-article" id="news-article-content">
+      <header class="news-article-header"><a class="news-back-link" href="newsroom.html">← 뉴스룸으로 돌아가기</a><p class="eyebrow" id="article-category"></p><h1 id="article-title">기사를 불러오는 중입니다</h1><p class="news-article-deck" id="article-deck"></p><div class="news-article-byline"><span>글 <b>온결 에디토리얼팀</b></span><time id="article-date"></time><span id="article-reading-time"></span></div></header>
+      <div class="news-article-art" id="article-art" aria-hidden="true"><span id="article-art-label"></span><i></i><b>ONGYEOL JOURNAL</b></div>
+      <div class="news-article-body" id="article-body"></div>
+    </article>
+    <section class="news-related" aria-labelledby="related-title"><p class="eyebrow">KEEP READING</p><h2 id="related-title">함께 읽어보세요</h2><div id="related-articles" class="news-related-grid"></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="logo" href="index.html">온결<span>ONGYEOL</span></a></div></footer>
+</body>
+</html>

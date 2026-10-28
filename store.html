@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f8f8f3"><meta name="description" content="온결의 가상 매장 정보를 지역과 매장명으로 찾아보세요.">
+  <title>온결 매장 찾기 — 온결</title><link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script><script src="store.js" defer></script><script src="share.js" defer></script><script src="footer.js" defer></script><script src="header.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a><div class="announcement">첫 구매 고객 3,000원 할인 · 3만원 이상 무료배송</div>
+  <header class="site-header">
+    <div class="utility-row"><button class="utility-toggle" type="button" aria-expanded="false" aria-controls="utility-nav" aria-label="사이트 바로가기 메뉴 열기">☰</button><nav class="utility-nav" id="utility-nav" aria-label="사이트 바로가기"><a href="signup.html">회원가입</a><a href="login.html">로그인</a><a href="cart.html" class="cart-link">장바구니 <b id="cart-count">0</b></a><a href="#order">주문배송</a><a href="help.html">고객센터</a><a href="store.html" aria-current="page">온결 매장</a><a href="#global">Global</a></nav></div>
+    <div class="header-inner"><button class="icon-button menu-toggle" aria-label="메뉴 열기" aria-expanded="false" aria-controls="category-nav">☰</button><a class="logo" href="index.html" aria-label="온결 홈">온결<span>ONGYEOL</span></a><form class="search-form" action="search.html" role="search"><label class="sr-only" for="site-search">상품 검색</label><input id="site-search" name="q" placeholder="검색"><button aria-label="검색">⌕</button></form><nav class="header-shortcuts" aria-label="쇼핑 바로가기"><a href="store.html" aria-current="page">온결 매장 찾기 <span aria-hidden="true">⌄</span></a><a href="recent.html">최근 본 상품 <span aria-hidden="true">⌄</span></a></nav></div>
+    <nav class="category-nav" id="category-nav" aria-label="상품 카테고리"><a href="search.html?category=all">전체</a><a href="search.html?category=cleanser">클렌저</a><a href="search.html?category=toner">토너·패드</a><a href="search.html?category=serum">세럼·에센스</a><a href="search.html?category=cream">크림</a><a href="search.html?category=suncare">선케어</a></nav>
+  </header>
+  <main id="main" class="container store-page">
+    <nav class="breadcrumbs" aria-label="현재 위치"><a href="index.html">홈</a><span>/</span><span>온결 매장 찾기</span></nav>
+    <section class="store-heading"><p class="eyebrow">ONGYEOL STORE</p><h1>가까운 온결 매장을<br><em>찾아보세요.</em></h1><p>매장에서 온결의 스킨케어 루틴을 만나보세요.</p><p class="store-demo-note">아래 매장과 주소는 화면 확인을 위한 가상 정보입니다.</p></section>
+    <section class="store-finder" aria-label="매장 검색"><div class="store-map-art" aria-hidden="true"><div class="store-map-grid"></div><div class="store-map-river"></div><span class="store-map-pin store-pin-one">O</span><span class="store-map-pin store-pin-two">O</span><span class="store-map-pin store-pin-three">O</span><span class="store-map-word">ONGYEOL<br><small>STORE LOCATOR</small></span></div><div class="store-search-panel"><h2>매장 검색</h2><p>지역이나 매장명을 입력하거나 지역을 선택해 주세요.</p><form class="store-search-controls" id="store-search-form"><label class="sr-only" for="store-query">지역 또는 매장명</label><input id="store-query" type="search" placeholder="예: 성수, 서울 매장" autocomplete="off"><button type="submit" aria-label="매장 검색">⌕</button><label class="sr-only" for="store-region">지역 선택</label><select id="store-region"><option value="all">전체 지역</option><option value="서울">서울</option><option value="경기">경기</option><option value="부산">부산</option><option value="대전">대전</option><option value="제주">제주</option></select></form><div class="store-result-meta"><span id="store-result-count" aria-live="polite"></span><button type="button" id="store-reset">초기화</button></div></div></section>
+    <section class="store-list-section"><div id="store-list" class="store-list" aria-live="polite"></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="logo" href="index.html">온결<span>ONGYEOL</span></a></div></footer>
+</body>
+</html>
